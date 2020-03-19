@@ -3,7 +3,7 @@
         padding: 0;
         margin: 0;
         background-image: url(../images/background1.jpeg);
-        background-size: 100vw;
+        background-size: 100vw 100vh;
         font-family: 'Sen', sans-serif;
     }
     
@@ -84,14 +84,13 @@
     }
 }
 
-@media screen and (min-width: 600px && max-width: 1199px){
+@media screen and (max-width: 1199px){
     body{
         padding: 0;
         margin: 0;
         background-image: url(../images/background1.jpeg);
         background-size: 100% 100vh;
-        font-family: 'Sen', sans-serif;
-        background-repeat: no-repeat;
+        font-family: 'Sen', sans-serif; 
     }
     
     #maincon{
@@ -100,30 +99,30 @@
     }
     
     h1{
-        font-size: 90px;
+        font-size: 190px;
         color:burlywood;
     }
     
     h2{
-        font-size: 50px;
-        margin-top: -45px;
-        color: cornsilk;
+        font-size: 110px;
+        margin-top: -115px;
+        color: rgb(94, 135, 247);
     }
     
     h3{
-        margin-top: -20px;
-        font-size: 32px;
-        color: rgb(179, 185, 235);
+        margin-top: -70px;
+        font-size: 62px;
+        color: rgb(208, 178, 236);
     }
     
     a{
         text-decoration: none;
         padding: 10px;
-        color:rgb(114, 129, 212);
+        color:rgb(28, 58, 224);
     }
     
-    #social{
-        font-size: 32px;
-        margin-top: -20px;
+    #social{    
+        font-size: 60px;
+        margin-top: -30px;
     }
 }
