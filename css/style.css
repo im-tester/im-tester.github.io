@@ -1,12 +1,12 @@
-body{
-    padding: 0;
-    margin: 0;
-    background-image: url(../images/background1.jpeg);
-    background-size: 100vw;
-    font-family: 'Sen', sans-serif;
-}
-
 @media screen and (min-width: 1200px) {
+    body{
+        padding: 0;
+        margin: 0;
+        background-image: url(../images/background1.jpeg);
+        background-size: 100vw;
+        font-family: 'Sen', sans-serif;
+    }
+    
     #maincon{
         margin-top: 30vh;
         margin-left: 10vw;
@@ -37,6 +37,93 @@ body{
     
     #social{
         font-size: 40px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        padding: 0;
+        margin: 0;
+        background-image: url(../images/background1.jpeg);
+        background-size: 100vh;
+        font-family: 'Sen', sans-serif;
+    }
+    
+    #maincon{
+        margin-top: 30vh;
+        margin-left: 10vw;
+    }
+    
+    h1{
+        font-size: 70px;
+        color:burlywood;
+    }
+    
+    h2{
+        font-size: 40px;
+        margin-top: -35px;
+        color: cornsilk;
+    }
+    
+    h3{
+        margin-top: -20px;
+        font-size: 28px;
+        color: rgb(179, 185, 235);
+    }
+    
+    a{
+        text-decoration: none;
+        padding: 10px;
+        color:rgb(114, 129, 212);
+    }
+    
+    #social{
+        font-size: 30px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (min-width: 600px && max-width: 1199px){
+    body{
+        padding: 0;
+        margin: 0;
+        background-image: url(../images/background1.jpeg);
+        background-size: 100% 100vh;
+        font-family: 'Sen', sans-serif;
+        background-repeat: no-repeat;
+    }
+    
+    #maincon{
+        margin-top: 30vh;
+        margin-left: 10vw;
+    }
+    
+    h1{
+        font-size: 90px;
+        color:burlywood;
+    }
+    
+    h2{
+        font-size: 50px;
+        margin-top: -45px;
+        color: cornsilk;
+    }
+    
+    h3{
+        margin-top: -20px;
+        font-size: 32px;
+        color: rgb(179, 185, 235);
+    }
+    
+    a{
+        text-decoration: none;
+        padding: 10px;
+        color:rgb(114, 129, 212);
+    }
+    
+    #social{
+        font-size: 32px;
         margin-top: -20px;
     }
 }
